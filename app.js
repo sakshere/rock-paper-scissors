@@ -71,7 +71,7 @@ function gameRule() {
     btn.style.backgroundColor = "grey";
     btn.style.color = "black";
     btn.style.fontSize = "20px";
-    btn.innerText = "Oh! It's a TIE!";
+    btn.innerText = "Oh! It's a TIE! ⚖️";
   } else if (
     (machineMove == "stone" && realMove == "paper") ||
     (machineMove == "paper" && realMove == "scissor") ||
@@ -81,16 +81,16 @@ function gameRule() {
     btn.style.backgroundColor = "rgba(183, 228, 203, 1)";
     btn.style.color = "black";
     btn.style.fontSize = "28px";
-    btn.innerText = "WIN because  " + realMove + " beats " + machineMove;
+    btn.innerText = "	✅WIN because  " + realMove + " beats " + machineMove;
     playerScore++;
     console.log("Your Score", playerScore);
     player.innerText = "Your Score :" + playerScore;
   } else {
-    body.style.backgroundColor = "rgba(193, 12, 96, 1)";
-    btn.style.backgroundColor = "rgba(193, 12, 96, 1)";
-    btn.style.color = "white";
+    body.style.backgroundColor = "#ff7a7aff";
+    btn.style.backgroundColor = "	#ff7a7aff";
+    btn.style.color = "black";
     btn.style.fontSize = "25px";
-    btn.innerText = "LOSE because  " + machineMove + " beats " + realMove;
+    btn.innerText = "❌ LOSE because  " + machineMove + " beats " + realMove;
     compScore++;
     console.log("Computer Score", compScore);
     comp.innerText = "Comp Score :" + compScore;
