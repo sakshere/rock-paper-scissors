@@ -1,0 +1,122 @@
+*{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif}
+  nav{
+    display: flex;
+    padding-top: 20px;
+    text-align: center;
+    justify-content: center;
+    font-size: 20px;
+    color: aliceblue;
+    height: 50px;
+  
+    background-color: rgb(0, 0, 0);
+
+}
+.set{
+   border-radius: 20px;
+    height: 500px;
+    
+    background-color: azure;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#set1{
+
+    height: 500px;
+    width: 400px;
+    background-color: rgb(126, 196, 196);
+    display:flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+    align-items: center;
+    
+}
+#set2{
+  
+    height: 500px;
+    width: 400px;
+    background-color: rgb(126, 196, 196);
+    display:flex;
+    flex-direction: column;
+     justify-content: space-evenly;
+    align-items: center;
+}
+#stone,#paper,#scissor,#stone1,#paper1,#scissor1{
+      height: 100px;
+    width: 100px;
+
+   
+    
+}
+#stone{
+    background-image: url(assets/stone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border : 5px solid black;
+    border-radius: 50%;
+}
+#paper{
+     background-image: url(assets/paper\ .png);
+       background-repeat: no-repeat;
+    background-size: contain;
+      background-repeat: no-repeat;
+      border : 5px solid black;
+    border-radius: 50%;
+
+}
+#scissor{
+     background-image: url(assets/Gemini_Generated_Image_qg92zhqg92zhqg92-removebg-preview.png);
+     background-size: contain;
+      background-repeat: no-repeat;
+      border : 5px solid black;
+    border-radius: 50%;
+    
+}
+#stone1{
+    background-image: url(assets/stone.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border : 5px solid black;
+    border-radius: 50%;
+}
+#paper1{
+     background-image: url(assets/paper\ .png);
+       background-repeat: no-repeat;
+    background-size: contain;
+      background-repeat: no-repeat;
+      border : 5px solid black;
+    border-radius: 50%;
+
+}
+#scissor1{
+     background-image: url(assets/Gemini_Generated_Image_qg92zhqg92zhqg92-removebg-preview.png);
+     background-size: contain;
+      background-repeat: no-repeat;
+      border : 5px solid black;
+    border-radius: 50%;
+   
+}
+
+#scissor1:hover ,#paper1:hover,#stone1:hover{
+   background-color: rgb(0, 0, 0,0.2);
+   background-blend-mode: multiply;
+}
+
+#btn{
+
+ width:1100px;
+ background-color: black;
+ color: white;
+ font-size: 20px;
+
+}
+footer{
+      height: 100px;
+
+    font-size:20px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(1, 1, 1);
+    color: aliceblue;
+}
